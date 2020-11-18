@@ -9,7 +9,7 @@ Build(){
     else
         go build -ldflags "-s -w" -o "out/$1/$name"
     fi
-    mkdir "out/$1/download"
+    mkdir -p "out/$1/download"
     cd out
     zip -q -r "$1.zip" "$1"
     cd ..
@@ -23,7 +23,7 @@ ArmBuild(){
     if [ $2 = "darwin" -a $3 = "arm64" ];then
         ldid -S "out/$1/$name"
     fi
-    mkdir "out/$1/download"
+    mkdir -p "out/$1/download"
     cd out
     zip -q -r "$1.zip" "$1"
     cd ..
