@@ -3,7 +3,7 @@ package baidupcs
 import (
 	"fmt"
 	"github.com/bitly/go-simplejson"
-	"github.com/iikira/BaiduPCS-Go/downloader"
+	"github.com/sersoong/BaiduPCS-Go/downloader"
 )
 
 // QuotaInfo 获取当前用户空间配额信息

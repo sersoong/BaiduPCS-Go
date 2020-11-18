@@ -2,7 +2,7 @@ package baidupcscmd
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/util"
+	"github.com/sersoong/BaiduPCS-Go/util"
 	"os"
 	"text/template"
 )

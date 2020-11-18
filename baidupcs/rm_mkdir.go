@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/bitly/go-simplejson"
-	"github.com/iikira/BaiduPCS-Go/downloader"
+	"github.com/sersoong/BaiduPCS-Go/downloader"
 )
 
 // Remove 批量删除文件/目录

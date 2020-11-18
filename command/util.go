@@ -2,7 +2,7 @@ package baidupcscmd
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/config"
+	"github.com/sersoong/BaiduPCS-Go/config"
 	fpath "path"
 	"regexp"
 	"strings"

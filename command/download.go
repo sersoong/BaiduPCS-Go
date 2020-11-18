@@ -2,9 +2,9 @@ package baidupcscmd
 
 import (
 	"fmt"
-	"github.com/iikira/BaiduPCS-Go/config"
-	"github.com/iikira/BaiduPCS-Go/downloader"
-	"github.com/iikira/BaiduPCS-Go/util"
+	"github.com/sersoong/BaiduPCS-Go/config"
+	"github.com/sersoong/BaiduPCS-Go/downloader"
+	"github.com/sersoong/BaiduPCS-Go/util"
 	"os"
 )
 

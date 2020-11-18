@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/gobs/args"
-	"github.com/iikira/BaiduPCS-Go/command"
-	"github.com/iikira/BaiduPCS-Go/config"
+	"github.com/sersoong/BaiduPCS-Go/command"
+	"github.com/sersoong/BaiduPCS-Go/config"
 	"github.com/kardianos/osext"
 	"github.com/peterh/liner"
 	"github.com/urfave/cli"
@@ -44,7 +44,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "BaiduPCS-Go"
 	app.Version = "beta-v2"
-	app.Author = "iikira/BaiduPCS-Go: https://github.com/iikira/BaiduPCS-Go"
+	app.Author = "sersoong/BaiduPCS-Go: https://github.com/sersoong/BaiduPCS-Go"
 	app.Usage = "百度网盘工具箱 for " + runtime.GOOS + "/" + runtime.GOARCH
 	app.Description = `BaiduPCS-Go 使用 Go语言编写, 为操作百度网盘, 提供实用功能.
 	具体功能, 参见 COMMANDS 列表
@@ -99,7 +99,7 @@ func main() {
 				filepath.Base(os.Args[0])+" login --bduss=123456789",
 				filepath.Base(os.Args[0])+" login",
 				"百度BDUSS获取方法: ",
-				"参考这篇 Wiki: https://github.com/iikira/BaiduPCS-Go/wiki/关于-获取百度-BDUSS",
+				"参考这篇 Wiki: https://github.com/sersoong/BaiduPCS-Go/wiki/关于-获取百度-BDUSS",
 				"或者百度搜索: 获取百度BDUSS",
 			),
 			Category: "百度帐号操作",

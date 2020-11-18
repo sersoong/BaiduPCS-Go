@@ -1,8 +1,8 @@
 package baidupcscmd
 
 import (
-	"github.com/iikira/BaiduPCS-Go/baidupcs"
-	"github.com/iikira/BaiduPCS-Go/config"
+	"github.com/sersoong/BaiduPCS-Go/baidupcs"
+	"github.com/sersoong/BaiduPCS-Go/config"
 	"os"
 )
 

@@ -3,7 +3,7 @@ This project was largely inspired by [GangZhuo/BaiduPCS](https://github.com/Gang
 
 # 特色
 
-使用百度 BDUSS 登录百度网盘, 支持多用户, [关于 获取百度 BDUSS](https://github.com/iikira/BaiduPCS-Go/wiki/关于-获取百度-BDUSS);
+使用百度 BDUSS 登录百度网盘, 支持多用户, [关于 获取百度 BDUSS](https://github.com/sersoong/BaiduPCS-Go/wiki/关于-获取百度-BDUSS);
 
 网盘内列出文件和目录, **支持通配符匹配路径**, [通配符_百度百科](https://baike.baidu.com/item/通配符);
 
@@ -20,11 +20,11 @@ This project was largely inspired by [GangZhuo/BaiduPCS](https://github.com/Gang
 > 自己感受一下吧
 
 # 程序 编译/交叉编译 说明
-参见 [交叉编译帮助](https://github.com/iikira/BaiduPCS-Go/wiki/交叉编译帮助) 
+参见 [交叉编译帮助](https://github.com/sersoong/BaiduPCS-Go/wiki/交叉编译帮助) 
 
 # 程序 下载/运行 说明
 
-Go语言程序, 可直接下载使用, [点此查看发布页面 / 下载汇总](https://github.com/iikira/BaiduPCS-Go/releases).
+Go语言程序, 可直接下载使用, [点此查看发布页面 / 下载汇总](https://github.com/sersoong/BaiduPCS-Go/releases).
 
 如果程序运行时输出乱码, 请检查下终端的编码方式是否为 `UTF-8`.
 
@@ -52,7 +52,7 @@ console 模式下, 光标所在行的前缀应为 `BaiduPCS-Go >`
 
 安卓, 建议使用软件 [Termux](https://termux.com) 或 [NeoTerm](https://github.com/NeoTerm/NeoTerm/releases) 或 终端模拟器, 以提供终端环境.
 
-示例: [Android 运行本 BaiduPCS-Go 程序参考示例](https://github.com/iikira/BaiduPCS-Go/wiki/Android-运行本-BaiduPCS-Go-程序参考示例), 有兴趣的可以参考一下.
+示例: [Android 运行本 BaiduPCS-Go 程序参考示例](https://github.com/sersoong/BaiduPCS-Go/wiki/Android-运行本-BaiduPCS-Go-程序参考示例), 有兴趣的可以参考一下.
 
 苹果iOS, 需要越狱, 在 Cydia 搜索下载并安装 MobileTerminal, 以提供终端环境. MobileTerminal 功能有限, 本人建议 设备安装 openssh 后使用 ssh 控制苹果设备, sftp 传输文件.
 
@@ -171,7 +171,7 @@ console 模式下, 运行命令 `help`
 
 ## 2. 使用百度 BDUSS 来登录百度帐号 (必做)
 
-[关于 获取百度 BDUSS](https://github.com/iikira/BaiduPCS-Go/wiki/关于-获取百度-BDUSS)
+[关于 获取百度 BDUSS](https://github.com/sersoong/BaiduPCS-Go/wiki/关于-获取百度-BDUSS)
 
 console 模式下, 运行命令 `login -h` (注意空格) 查看帮助
 
